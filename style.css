@@ -616,7 +616,8 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #12221f;
+    background-color: #b49897;
+    border: 1px solid #b49897;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
