@@ -18,6 +18,7 @@
 @import url(css/prettyPhoto.css);
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 /*------------------------------------------------------------------
     SKELETON
@@ -26,7 +27,7 @@
 body {
     color: #999999;
     font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Baloo Tamma 2', cursive;
     line-height: 1.80857;
 }
 
@@ -84,7 +85,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #12221f;
     margin: 0
 }
 
@@ -374,7 +375,7 @@ a img.aligncenter {
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 58px;
 	text-transform: uppercase;
 }
 .heading p{
@@ -447,13 +448,14 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #12221f;
 }
 
 #clouds{
 	margin-top: -5%;
 	position: relative;
-	z-index: 1;
+    z-index: 1;
+    bottom: 7px;
 }
 #clouds path {
     fill: #ffffff;
@@ -567,13 +569,13 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+	color: #12221f;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid #333333;
+	border: 1px solid #12221f;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -614,7 +616,7 @@ xclip
 
 .btn-hover-new:hover{
 	color: #ffffff;
-	background-color: #333333;
+	background-color: #12221f;
 }
 .btn-hover-new:hover > span {
     opacity: 0;
@@ -665,7 +667,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: #12221f;
 }
 .services-inner-box h2{
 	font-size: 22px;
@@ -842,7 +844,7 @@ xclip
 
 .testimonial h4 {
     font-size: 18px;
-    color: #333333;
+    color: #12221f;
     padding: 13px 0 0;
 }
 
@@ -1109,7 +1111,7 @@ xclip
 }
 
 .event_dit ul li a:hover{
-	color: #333333;
+	color: #12221f;
 }
 
 .service-widget h3 {
@@ -1124,7 +1126,7 @@ xclip
 	position: relative;
 }
 .participate-wrap figure::before{
-	background-color: #333333;
+	background-color: #12221f;
 	content: "";
 	position: absolute;
 	border-radius: 100%;
@@ -1279,7 +1281,7 @@ xclip
 }
 
 .hoverbutton {
-    background-color: #333333;
+    background-color: #12221f;
     position: absolute;
     color: #ffffff !important;
     top: 70%;
@@ -1424,7 +1426,7 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #333333;
+	background: #b49897;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
@@ -1439,7 +1441,11 @@ hr.invis1 {
 	background: #fff;
 	padding: 12px 40px;
 	border: none;
-	border-radius: 0px;
+	border-radius: 2px;
+}
+
+.filter-button-group button:focus {
+    outline: none;
 }
 
 
@@ -1487,7 +1493,7 @@ hr.invis1 {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	background: #333333;
+	background: #12221f;
 	color: #fff;
 	padding: 10px 15px;
 	text-align: center;
@@ -1734,7 +1740,7 @@ hr.invis1 {
 }
 
 .bootstrap-select .dropdown-toggle:focus {
-    outline: thin dotted #333333 !important;
+    outline: thin dotted #12221f !important;
     outline: 5px auto -webkit-focus-ring-color !important;
     outline-offset: -2px;
 }
@@ -2046,7 +2052,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #12221f;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
@@ -2081,7 +2087,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #333333;
+    background: url(images/bg.png) no-repeat center center #12221f;
 }
 
 
@@ -2172,7 +2178,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #333333 !important;
+    color: #12221f !important;
 }
 
 .footer-links li {
@@ -2395,7 +2401,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333333;
+    background: #12221f;
     z-index: 11000;
     position: fixed;
     display: block
