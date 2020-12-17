@@ -578,7 +578,9 @@ xclip
 	border: 1px solid #12221f;
 	overflow: hidden;
 	padding: 0px 18px;
-	display: inline-block;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .sim-btn{
@@ -657,22 +659,20 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
-	margin-bottom: 30px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
-.ser-icon{
-	width: 90px;
-	height: 90px;
-	text-align: center;
-	line-height: 90px;
-}
-.ser-icon i{
-	font-size: 50px;
-	color: #12221f;
-}
+
+
 .services-inner-box h2{
 	font-size: 22px;
-	font-weight: 600;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+    left: 10px;
 }
 
 
@@ -1524,7 +1524,7 @@ hr.invis1 {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(51, 51, 51, 0.80);
+	/* background-color: rgba(51, 51, 51, 0.80); */
 	opacity: 0;
 	-webkit-transition: all .5s;
 	transition: all .5s;
