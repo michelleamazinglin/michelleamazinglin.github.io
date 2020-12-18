@@ -1534,9 +1534,12 @@ hr.invis1 {
 
 .post-info{
 	padding: 0px 15px 40px 15px;
-	background: #ffffff;
-	text-align: left;
-	margin-top: 40px;
+    background: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    height: 300px;
+    overflow: auto;
 }
 
 .post-info p{
@@ -1549,13 +1552,32 @@ hr.invis1 {
 }
 
 .post-info ul{
-	display: block;
-	text-align: center;
-	margin-bottom: 15px;
+	display: flex;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .post-info ul li{
 	display: inline-block;
-	text-align: center;
+    text-align: center;
+}
+
+.post-info ul li b {
+    padding: 0 20px;
+    position: relative;
+    top: 2px;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.post-info ul li b:hover {
+    border: none;
+    background-color: #b49897;
+    color: white;
+    transform: translate(-30%, 0);
+    transition: all 0.5s;
 }
 
 
@@ -2050,6 +2072,8 @@ select.mobile-device {
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: #f2f3f5;
     padding: 40px 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contact_form .form-control {
@@ -2087,9 +2111,7 @@ select.mobile-device {
     color: #bcbcbc;
 }
 
-#contact {
-    background: url(images/bg.png) no-repeat center center #12221f;
-}
+
 
 
 #contact .section-title p{
@@ -2474,4 +2496,9 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+.linkedin {
+    position: relative;
+    top: 6px;
 }
