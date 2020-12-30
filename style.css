@@ -1540,6 +1540,7 @@ hr.invis1 {
     position: relative;
     height: 300px;
     overflow: auto;
+    margin-bottom: 40px;
 }
 
 .post-info p{
